@@ -14,6 +14,7 @@ TODO: Epics/User stories (derived from the functional requirements and interview
 
 
 ## Goal Refinement
-
+Here is the full goal refinement graph:
+![Goal Refinement Graph](./images/fullGoalGraph.png)
 
 ## 
