@@ -36,5 +36,7 @@ Key takeaways of our interview:
 
 
 # Use Cases
+Journey Map
+![Journey Map](journeyMap.png)
 
 TODO: Use Case Diagram, Journey Map
