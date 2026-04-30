@@ -36,7 +36,9 @@ Key takeaways of our interview:
 
 
 # Use Cases
-Journey Map
+## Journey Map
 ![Journey Map](/images/journeyMap.png)
 
-TODO: Use Case Diagram, Journey Map
+## Use Case Diagram
+![Use Case Diagram](./images/useCaseDiagram.png)
+This diagram shows the use case of users completing a full hearing test. The CHW starts by logging in to the system and setting up a screening. Then the hearing screening participant will complete the screening by following the system's and CHW's directions. The data is then store on a local secure database until the next time the CHW logins in and updates the data to an external server.
