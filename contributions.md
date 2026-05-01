@@ -23,4 +23,12 @@ Parker Davids:
 - Phenomena, The System, and Other Solutions sections to the requirement documentation
 
 Kyle Bradley:
-- 
+- Project Proposal
+- One Page Plan for Isabella's Interview
+- Reviewing and sorting interview questions for Lynne's Interview
+- One Page Plan for Lynne's Interview
+- Workbook for Lynne's Interview
+- Interviewing Lynne Henson
+- Stakeholder and Goal Refinement slides of Final Presentation
+- Goal Refinement graph
+- goals.md portion of Requirements Documentation
