@@ -2,7 +2,16 @@ Ethan Olson:
 - 
 
 Colin Salem:
-- 
+- Interview with Dr. Hughes (incl. one page plan + workbook)
+- The following sections of the Executive Summary:
+  - Stakeholders and Users
+  - Scope of the System
+  - Functional Requirements
+  - Quality Requirements
+  - Summary of Elicitation Approach
+  - Overall Conclusions
+- Sequence Diagram
+- Conversion of Context Diagram to PlantUML
 
 Adam Furniss:
 - 
