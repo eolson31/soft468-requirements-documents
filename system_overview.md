@@ -44,8 +44,33 @@ The system is designed with the following conditions in mind:
 
 ## Security Concerns
 ### Risks/Uncertainties/Challenges and Mitigation Plan
+#### Offline Data Loss Risk
+CHWs often operate in environments with little to no connectivity. Ensuring that any data they collect is not lost is of the upmost importance.
+
+Mitigation Plan:
+  - Store results locally
+  - Notify user of any failed upload
+#### User Input Errors During Testing
+Users may input incorrect information when completing the test.
+
+Mitigation Plan:
+  - Allow users to go back and change their answers.
+  - Use dropdowns instead of free-text when possible
+  - Have validation rules for free text options
 
 ### Security Issues
+#### Must store patient data securely
+Sensitive patient data needs to be stored securely in order to be compliant with federal regualtions (i.e. HIPAA)
+
+Mitigation Plan:
+  - Use REDCap database, which is already HIPAA compliant.
+  - Use other industry standard security measures, such as HTTPS and input validation.
+#### Must have a role-based login system
+CHWs should only be able to access the patient data of patients that they have tested.
+
+Mitigation Plan:
+  - Auth0 authentication system. Each CHW belongs to an organization, and can only access patients with that organization.
+  - Introduce separate permissions for CHWs vs Admins.
 
 
 ## Other Solutions
