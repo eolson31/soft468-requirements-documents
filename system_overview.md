@@ -27,7 +27,7 @@ The system will not provide medical diagnoses or treatment plans. It is not desi
 
 ### Context Diagram
 
-![Context Diagram](./images/contextDiagram.png)
+![Context Diagram](./images/context_diagram.png)
 
 ### Conceptual Model
 ![Conceptual Model](./images/coceptualModel.png)
