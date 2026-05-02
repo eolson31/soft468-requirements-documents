@@ -1,7 +1,19 @@
-Ethan Olson: 
-- 
+# Team Member Contributions
 
-Colin Salem:
+**Ethan Olson:**
+- Interview with Isabella
+  - Interview Workbook
+  - Post interview reflection
+- Note taking for interview with Lynne
+  - Interview Workbook
+- Requirement Documents:
+  - Background
+  - Interviews
+- General project organization
+
+---
+
+**Colin Salem:**
 - Interview with Dr. Hughes (incl. one page plan + workbook)
 - The following sections of the Executive Summary:
   - Stakeholders and Users
@@ -13,16 +25,22 @@ Colin Salem:
 - Sequence Diagram
 - Conversion of Context Diagram to PlantUML
 
-Adam Furniss:
-- 
+---
 
-Parker Davids: 
+**Adam Furniss:**
+- <Placeholder>
+
+---
+
+**Parker Davids:**
 - Interview 1 and interview 1 workbook
 - Project Context, Purpose, Critical Assumptions, Constraints, and Dependencies sections of the executive summary
 - Use Case Diagram and description
 - Phenomena, The System, and Other Solutions sections to the requirement documentation
 
-Kyle Bradley:
+---
+
+**Kyle Bradley:**
 - Project Proposal
 - One Page Plan for Isabella's Interview
 - Reviewing and sorting interview questions for Lynne's Interview
