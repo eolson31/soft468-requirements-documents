@@ -239,4 +239,7 @@ Goal 6 Tree:
 Goal 7 Tree:
 ![Goal 7](./images/goal7.png)
 
-## 
+## Sequence Diagrams
+
+Sequence diagram showing the process of administering a hearing screening/test:
+![Sequence Diagram 1](./images/sequenceDiagram1.png)
