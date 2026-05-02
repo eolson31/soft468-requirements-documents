@@ -17,16 +17,9 @@ The goal of this project is to create an easy-to-administer, web-based hearing t
 
 ## Timeline
 
-TODO: Gantt chart
+![Gantt Chart](./images/ganttChart.png)
 
 
 ## AI Disclosure
 
-```
-Add a description at the end of your document, such as:
-AI Use Disclosure: I used Microsoft Copilot <insert tool here> to brainstorm initial feature ideas
-in my answers. All answers and analyses were written and revised by me. Below I will list my process
-of using AI…….
-If you did not use AI, write:
-AI Use Disclosure: I did not use AI tools for this assignment
-```
+AI Use Disclosure: AI models were used to generate the baselines for some charts such as the goal refinement graph and Gantt chart. All AI materials were double-checked and edited to ensure correctness before use. 
