@@ -32,3 +32,11 @@ Kyle Bradley:
 - Stakeholder and Goal Refinement slides of Final Presentation
 - Goal Refinement graph
 - goals.md portion of Requirements Documentation
+
+
+---
+
+| [⬅️](glossary.md) | [⬆️](README.md) |  |
+|:---------------:|:----------------------------:|:--------------------------------------------:|
+| [Glossary](glossary.md) | [Front Matter](README.md) |  |
+

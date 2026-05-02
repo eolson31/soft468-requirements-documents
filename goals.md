@@ -243,3 +243,11 @@ Goal 7 Tree:
 
 Sequence diagram showing the process of administering a hearing screening/test:
 ![Sequence Diagram 1](./images/sequenceDiagram1.png)
+
+
+---
+
+| [⬅️](users.md) | [⬆️](README.md) | [➡️](glossary.md) |
+|:---------------:|:----------------------------:|:--------------------------------------------:|
+| [Interviews & Users](users.md) | [Front Matter](README.md) | [Glossary](glossary.md) |
+

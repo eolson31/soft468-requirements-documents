@@ -5,3 +5,10 @@
 - **UNL NUROS**: A University of Nebraska - Lincoln, School of Computing provided server which offers a variety of software development tools, frameworks and services.
 - **HIPAA** *(Health Insurance Portability and Accountability Act)*: A law which aims to protect sensitive patient health data from being disclosed without consent.
 - **Auth0**: A service that can be used to manage user authentication, including adding/removing accounts and setting permissions on accounts.
+
+
+---
+
+| [⬅️](goals.md) | [⬆️](README.md) | [➡️](contributions.md) |
+|:---------------:|:----------------------------:|:--------------------------------------------:|
+| [Project Goals](goals.md) | [Front Matter](README.md) | [Contributions](contributions.md) |

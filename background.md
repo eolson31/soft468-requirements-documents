@@ -51,3 +51,10 @@ The web-based hearing testing system should include:
 2. **Regulatory Bodies:** These groups ensure ethical and legal compliance in handling sensitive patient data. Their influence drives requirements related to HIPAA compliance, data security, and privacy controls.
 
 3. **Technology Providers:** These providers supply the infrastructure for hosting, data storage, and secure data management. While not interacting with app, they influence architectural decisions and influence reliability and availability requirements.
+
+
+---
+
+|  | [⬆️](README.md) | [➡️](system_overview.md) |
+|:---------------:|:----------------------------:|:--------------------------------------------:|
+|  | [Front Matter](README.md) | [System Overview](system_overview.md) |

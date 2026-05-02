@@ -1,6 +1,6 @@
 # SOFT468 Requirements Documents
 
-**Project:** Cochlear Implant Research Lab Mobile Audio Test (*Senior Design Team*)
+**Project:** Cochlear Implant Research Lab Mobile Audio Test *(Senior Design Team)*
 
 **Members:** Ethan Olson, Colin Salem, Adam Furniss, Parker Davids, Kyle Bradley
 
@@ -10,9 +10,10 @@ The goal of this project is to create an easy-to-administer, web-based hearing t
 
 1. [Background](background.md)
 2. [System Overview](system_overview.md)
-3. [Users](users.md)
-4. [Goals](goals.md)
+3. [Interviews & Users](users.md)
+4. [Project Goals](goals.md)
 5. [Glossary](glossary.md)
+6. [Contributions](contributions.md)
 
 
 ## Timeline
@@ -23,3 +24,9 @@ The goal of this project is to create an easy-to-administer, web-based hearing t
 ## AI Disclosure
 
 AI Use Disclosure: AI models were used to generate the baselines for some charts such as the goal refinement graph and Gantt chart. All AI materials were double-checked and edited to ensure correctness before use. 
+
+---
+
+|  |  | [➡️](background.md) |
+|:---------------:|:----------------------------:|:--------------------------------------------:|
+|  |  | [Background](background.md) |

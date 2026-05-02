@@ -42,3 +42,10 @@ Key takeaways of our interview:
 ## Use Case Diagram
 ![Use Case Diagram](./images/useCaseDiagram.png)
 This diagram shows the use case of users completing a full hearing test. The CHW starts by logging in to the system and setting up a screening. Then the hearing screening participant will complete the screening by following the system's and CHW's directions. The data is then store on a local secure database until the next time the CHW logins in and updates the data to an external server.
+
+
+---
+
+| [⬅️](system_overview.md) | [⬆️](README.md) | [➡️](goals.md) |
+|:---------------:|:----------------------------:|:--------------------------------------------:|
+| [System Overview](system_overview.md) | [Front Matter](README.md) | [Project Goals](goals.md) |
