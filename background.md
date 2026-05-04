@@ -2,25 +2,25 @@
 
 Hearing loss impacts people of all ages, but only a fraction are diagnosed and treated. Of the 30 million adults in the U.S. who have hearing loss, only ~15% use hearing assistive devices. Furthermore, 2-3 per 1000 babies are born with hearing loss each year. It can be difficult for some individuals to receive a hearing screening and many are "lost to follow-up". 
 
-Community Health Workers (CHWs) are trusted community-based individuals who provide basic healthcare assistance, health education, advocacy, and connections to appropriate resources, and could therefore be a valuable resource to bridging the gap in untreated hearing loss, particularly in underserved regions. The goal of this project is to create an easy-to-administer, web-based hearing testing application that anyone can run from a smartphone or tablet, coupled to a pair of headphones. Additionally, this product should be accessible to those in rural areas who may not always have WiFi access. The test itself should be automated and not require specialized knowledge on the part of the user.
+Community Health Workers (CHWs) are trusted community-based individuals who provide basic healthcare assistance, health education, advocacy, and connections to appropriate resources, and could therefore be a valuable resource to bridging the gap in untreated hearing loss, particularly in underserved regions. The goal of this project is to create an easy-to-administer, web-based hearing testing application that anyone can run from a smartphone or tablet, coupled to a pair of headphones. Additionally, this product should be accessible to those in rural areas who may not always have WiFi access. The hearing test itself should be automated and not require specialized knowledge on the part of the user.
 
 ## Scope
 
 The web-based hearing testing system should include:
 
 1. **Ease of use**: The system should be administrable by anyone - no specialized training in audiology should be needed. The UI/UX should be user-friendly and easy to understand.
-2. **Hearing test:** A hearing test, not just a screening, should be developed. The test should play multiple frequencies (500Hz, 1000Hz, 2000Hz, 4000Hz, 8000Hz) in both ears and be able to record whether a user hears the sound.
+2. **Hearing test:** A hearing test, not just a screening, should be developed. The test should play multiple frequencies (e.g., 500Hz, 1000Hz, 2000Hz, 4000Hz, 8000Hz) in both ears and be able to record whether a user hears the sound.
 3. **Data schema:** Relevant data will need to be collected about the tester and participant (e.g., participant name, tester name, date of birth, address, test results, referrals made).
 4. **Data storage:** Secure, easily queryable, cloud-based storage should be used.
 5. **Data query & retrieval:** It should be possible to gather statistics about stored hearing tests (e.g., number of tests administered, number of passing screenings, number of referrals, number of referral follow ups).
-6. **Plot the audiogram:** An audiogram should be drawn on the screen upon completion of a test.
+6. **Test Results:** An audiogram should be drawn on the screen upon completion of a test.
 7. **Public access:** The website should be publicly hosted on a dedicated website.
 
 
-## Sponsors
+## Project Sponsors
 
 1. **Bonita Sharif:** Associate Professor, Primary Sponsor
-2. **Michelle Hughes:** Professor, Director of Cochlear Implant Research lab at UNL 
+2. **Michelle Hughes:** Audiology Professor, Director of Cochlear Implant Research lab at UNL 
 3. **Hanna Ditmars:** Associate Professor of Practice
 4. **Kayle Byrd:** AuD Student
 5. **Isabella Sanner:** AuD Student
@@ -40,7 +40,7 @@ The web-based hearing testing system should include:
 
 ### Supporting Stakeholders
 
-1. **System Administrators:** Administrators create and manage CHW accounts, as well as manage test data. They are responsible for maintaining system integrity and overseeing data access, making them key stakeholders for security, authentication, and reporting requirements.
+1. **System Administrators:** Administrators create and manage CHW accounts, as well as manage test data. They are responsible for maintaining system integrity and overseeing data access, making them key stakeholders for security, authentication, and data collection.
 
 2. **Research & Lab Staff:** Other researchers and lab staff may use the test data to evaluate trends, referral outcomes, and the overall feasibility of the testing approach. Their needs influence data schema design, data search, and reporting capabilities.
 

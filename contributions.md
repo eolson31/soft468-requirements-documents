@@ -9,6 +9,7 @@
 - Requirement Documents:
   - Background
   - Interviews
+- Interview Findings document
 - General project organization
 
 ---

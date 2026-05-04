@@ -10,7 +10,6 @@ The system is structured around the following primary goals:
 - **G6:** Deploy & Maintain System  
 - **G7:** Calibration & Setup  
 
-TODO: Epics/User stories (derived from the functional requirements and interviews) **OR** sequence diagram(s) (showing functionality for at least three different use cases) 
 
 ## Functional Requirements
 

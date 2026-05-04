@@ -1,10 +1,10 @@
 # Interviews
 
-We conducted three interviews for this project with Isabella Sanner, Michelle Hughes, and Lynne Henson. Details of each interview can be seen below:
+We conducted three interviews for this project with Isabella Sanner, Michelle Hughes, and Lynne Henson. Details and findings of each interview can be seen below.
 
 ### Interview 1
 
-**Isabella Sanner** was the first person we interviewed. Isabella is a graduate student at UNL who is becoming a doctor of Audiology. She has conducted hearing tests with multiple people before and was able to provide us with the perspective of someone who would use the product being created. Isabella is also one of the sponsors for the Senior Design project. 
+**Isabella Sanner** was the first person we interviewed. Isabella is a graduate student at UNL who is becoming a doctor of Audiology. She has experience administering hearing tests and was able to provide us with the perspective of someone who would use the product being created. Isabella is also one of the sponsors for the Senior Design project. 
 
 Key takeaways of our interview:
 
@@ -25,23 +25,29 @@ Key takeaways of our interview:
 
 ### Interview 3
 
-**Lynne Henson** was the third individual we interviewed for this project. Lynne is someone we know personally and she has had hearing aids since childhood. This was a good opportunity for us to see what the receiving end of a hearing test was like and allowed us to see the reasons someone may not go for a followup.
+**Lynne Henson** was the third individual we interviewed for this project. Lynne is someone we know personally and she has had hearing aids since childhood. This was a great opportunity for us to see what the receiving end of a hearing test is like and allowed us to see the reasons someone may not go for a follow-up.
 
 Key takeaways of our interview:
 
 1. Having to wait for test results can cause stress and anxiety. Quick test results are desirable for any hearing test application.
-2. Lynne shared that she does a hearing test about every 5 years. She said the process for scheduling can be tedious, often requiring signoffs of a doctor, insurance, etc.
+2. Lynne shared that she does a hearing test about every 5 years. She said the process for scheduling can be tedious, often requiring sign-offs of a doctor, insurance, etc..
 3. Currently, all hearing tests she has taken have been within an audiologist booth. This requires her to travel each time she needs a test. A mobile test would be more convenient as long as the results are just as good.
 
 
 
 # Use Cases
 ## Journey Map
+
+The following table details the journey of a patient getting a hearing test with current technology:
+
 ![Journey Map](/images/journeyMap.png)
 
 ## Use Case Diagram
+
+Use Case Diagrams can be useful for seeing how a user interacts with the inner components of the system. The following diagram shows the use case of users completing a full hearing test.
+
 ![Use Case Diagram](./images/useCaseDiagram.png)
-This diagram shows the use case of users completing a full hearing test. The CHW starts by logging in to the system and setting up a screening. Then the hearing screening participant will complete the screening by following the system's and CHW's directions. The data is then store on a local secure database until the next time the CHW logins in and updates the data to an external server.
+ The CHW starts by logging in to the system and setting up a screening. Then the hearing screening participant will complete the screening by following the system's and CHW's directions. The data is then store on a local secure database until the next time the CHW logins in and updates the data to an external server.
 
 
 ---

@@ -24,10 +24,18 @@ The system will not provide medical diagnoses or treatment plans. It is not desi
 
 ### Context Diagram
 
+The system will interact with many agents, which is best illustrated in the following context diagram.
+
 ![Context Diagram](./images/contextDiagram.png)
 
+The `Test Taker`, `CHW`, and `Administrator` are all individuals who will interact with the system. They will perform different actions depending on their role. Additionally, external software like `OAuth` and the `REDCap DB` are used by the system to enforce security during transactions and data storage. The `NPI API` and `Calibration Equipment` are used by the hearing test software to provide a streamlined user experience.
+
 ### Conceptual Model
+
+The following conceptual model details the inner components of the hearing test software. This diagram shows the data collected of users and the different hearing test components, where each test is a new `Session`.
+
 ![Conceptual Model](./images/coceptualModel.png)
+
 
 ### System Constraints
 The system is designed with the following conditions in mind:
@@ -63,10 +71,10 @@ Mitigation Plan:
   - Use REDCap database, which is already HIPAA compliant.
   - Use other industry standard security measures, such as HTTPS and input validation.
 #### Must have a role-based login system
-CHWs should only be able to access the patient data of patients that they have tested.
+CHWs should only be able to access the patient data of patients they have tested.
 
 Mitigation Plan:
-  - Auth0 authentication system. Each CHW belongs to an organization, and can only access patients with that organization.
+  - Auth0 authentication system. Each CHW belongs to an organization and can only access patients with that organization.
   - Introduce separate permissions for CHWs vs Admins.
 
 
