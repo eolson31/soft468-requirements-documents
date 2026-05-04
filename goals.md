@@ -244,6 +244,12 @@ Goal 7 Tree:
 Sequence diagram showing the process of administering a hearing screening/test:
 ![Sequence Diagram 1](./images/sequenceDiagram1.png)
 
+Sequence diagram showing the process of entering patient follow up information
+![Sequence Diagram 2](./images/sequenceDiagram2.png)
+
+Sequence diagram showing the process of saving patient data collected offline
+![Sequence Diagram 3](./images/sequenceDiagram3.png)
+
 
 ---
 
