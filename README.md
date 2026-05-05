@@ -25,7 +25,7 @@ Below shows a high level Gantt chart of our activities for this project:
 
 ## AI Disclosure
 
-AI Use Disclosure: AI models were used to generate the baselines for some charts such as the goal refinement graph and Gantt chart. All AI materials were double-checked and edited to ensure correctness before use. 
+AI Use Disclosure: AI models were used to generate the baselines for some charts such as the goal refinement graph and Gantt chart. All AI materials were double-checked and edited to ensure correctness before use. AI was additionally used to update the Functional Requirements, turning them from bullet points into the Given/When/Then format. Each requirement was reviewed to ensure no information was lost or incorrect.
 
 ---
 
