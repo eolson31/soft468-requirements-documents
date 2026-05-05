@@ -29,7 +29,11 @@
 ---
 
 **Adam Furniss:**
-- <Placeholder>
+- Interview with Dr. Hughes (incl. one page plan + workbook)
+- Original Context Diagram
+- Journey Map
+- Sequence Diagram 2 and 3
+- Risks and Security Vulnerabilities sections to requirement documentation.
 
 ---
 
