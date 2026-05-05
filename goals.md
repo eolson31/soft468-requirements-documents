@@ -14,134 +14,232 @@ The system is structured around the following primary goals:
 ## Functional Requirements
 
 ### FR1 – Hearing Test Initialization (G1)
-The system shall allow an approved tester to start a new hearing test session.
 
-**Fit Criteria:**
-- Tester clicks “Start Test” -> a new test session is created.
-- System initializes left and right ear testing sequence.
-- Test session is uniquely identified and stored.
+- Given an approved tester is logged into the system  
+  When the tester clicks "Start Test"  
+  Then a new hearing test session is created  
+
+- Given a new hearing test session is created  
+  When the session begins  
+  Then the system initializes left and right ear testing sequences  
+
+- Given a test session has been created  
+  When the system stores the session  
+  Then the session is uniquely identified and saved 
 
 ### FR2 – Multi-Frequency Tone Generation (G1)
-The system shall generate tones at specified frequencies.
 
-**Fit Criteria:**
-- When a test runs -> tones at 500, 1000, 2000, 4000, and 8000 Hz are played.
-- Each frequency is presented at least once per ear.
-- Tone playback occurs without system error.
+- Given a hearing test is running  
+  When tones are generated  
+  Then tones at 500, 1000, 2000, 4000, and 8000 Hz are played  
+
+- Given tones are being presented during a test  
+  When playback occurs  
+  Then each frequency is presented at least once per ear  
+
+- Given tones are played  
+  When playback is executed  
+  Then playback occurs without system error
 
 ### FR3 – Bilateral Ear Testing (G1)
-The system shall test both ears independently.
 
-**Fit Criteria:**
-- System presents tones separately for left and right ears.
-- User responses are recorded per ear.
-- Data clearly distinguishes left vs right ear results.
+- Given a hearing test is in progress  
+  When tones are presented  
+  Then tones are delivered separately to the left and right ears  
+
+- Given a participant responds to tones  
+  When responses are recorded  
+  Then each response is associated with the correct ear  
+
+- Given test data is stored  
+  When the data is retrieved  
+  Then left and right ear results are clearly distinguishable 
 
 ### FR4 – User Response Capture (G1)
-The system shall allow participants to indicate whether a tone is heard.
 
-**Fit Criteria:**
-- User selects “Heard” or “Not Heard” -> response is recorded.
-- System associates response with correct frequency and ear.
-- Each tone presentation results in a recorded response.
+- Given a tone is played  
+  When the user selects "Heard" or "Not Heard"  
+  Then the response is recorded  
+
+- Given a response is recorded  
+  When the system stores the response  
+  Then it is associated with the correct frequency and ear  
+
+- Given tones are presented during a test  
+  When each tone finishes  
+  Then a response is recorded for that tone  
 
 ### FR5 – Threshold Recording (G1, G3)
-The system shall record hearing thresholds for each ear-frequency combination.
 
-**Fit Criteria:**
-- After test completion -> threshold values exist for all tested frequencies.
-- Each threshold is stored with corresponding ear and session.
-- Stored data matches user responses exactly.
+- Given a hearing test is completed  
+  When results are processed  
+  Then threshold values exist for all tested frequencies  
+
+- Given threshold values are calculated  
+  When they are stored  
+  Then each threshold is associated with the correct ear and test session  
+
+- Given stored threshold data  
+  When compared to recorded responses  
+  Then the data matches exactly  
 
 ### FR6 – User Registration and Authentication (G2)
-The system shall allow users to register, authenticate, and access the system based on roles.
 
-**Fit Criteria:**
-- A user submits a registration form with a valid email -> a registration request is stored.
-- An administrator approves a request -> the user is able to log in successfully.
-- An unapproved user attempts login -> access is denied.
-- A logged-in user accesses a protected page -> access is granted only if authenticated.
+- Given a user submits a registration form with a valid email  
+  When the form is processed  
+  Then a registration request is stored  
+
+- Given an administrator approves a registration request  
+  When the user attempts to log in  
+  Then the user is able to log in successfully  
+
+- Given a user is not approved  
+  When the user attempts to log in  
+  Then access is denied  
+
+- Given a user is logged in  
+  When the user accesses a protected page  
+  Then access is granted only if the user is authenticated 
 
 ### FR7 – Admin Approval Workflow (G2)
-The system shall allow administrators to manage tester accounts.
 
-**Fit Criteria:**
-- Admin selects a pending user -> system marks user as approved or denied.
-- Approved user logs in -> access to testing features is enabled.
-- Denied user attempts login -> access is denied.
-- System records approval/denial decisions.
+- Given an administrator views pending users  
+  When the administrator selects a user and approves or denies them  
+  Then the system updates the user’s status accordingly  
+
+- Given a user has been approved  
+  When the user logs in  
+  Then access to testing features is enabled  
+
+- Given a user has been denied  
+  When the user attempts to log in  
+  Then access is denied  
+
+- Given an administrator makes a decision  
+  When the action is completed  
+  Then the system records the approval or denial decision  
 
 ### FR8 – Data Storage (G3)
-The system shall store all test-related data.
 
-**Fit Criteria:**
-- After test completion -> test data is written to the database.
-- Stored data includes participant, tester, thresholds, referrals, and timestamps.
-- Retrieving stored data returns identical values to what was recorded.
+- Given a test is completed  
+  When the results are submitted  
+  Then the test data is written to the database  
 
+- Given data is stored in the system  
+  When the data is inspected  
+  Then it includes participant, tester, thresholds, referrals, and timestamps  
+
+- Given stored data is retrieved  
+  When it is compared to original input  
+  Then the retrieved data matches exactly 
 
 ### FR9 – Offline Data Handling (G3)
-The system shall support offline data collection and later synchronization.
 
-**Fit Criteria:**
-- When offline -> test data is stored locally.
-- When connection is restored -> local data is uploaded to server.
-- No stored test data is lost during sync.
+- Given the system is offline  
+  When a test is completed  
+  Then the test data is stored locally  
+
+- Given internet connectivity is restored  
+  When synchronization occurs  
+  Then locally stored data is uploaded to the server  
+
+- Given data synchronization is complete  
+  When data integrity is checked  
+  Then no test data is lost  
 
 ### FR10 – Audiogram Generation (G4)
-The system shall generate a visual audiogram after test completion.
 
-**Fit Criteria:**
-- Test completes -> audiogram is displayed on screen.
-- Audiogram contains plotted values for all five frequencies.
-- Left and right ear data are visually distinguishable.
+- Given a hearing test is completed  
+  When results are finalized  
+  Then an audiogram is displayed on screen  
+
+- Given an audiogram is displayed  
+  When it is rendered  
+  Then it includes plotted values for all five frequencies  
+
+- Given audiogram data is displayed  
+  When visualized  
+  Then left and right ear data are clearly distinguishable 
 
 ### FR11 – Reporting and Statistics (G5)
-The system shall provide aggregated test statistics.
 
-**Fit Criteria:**
-- User requests report -> system displays total tests, pass/fail counts, referrals.
-- Displayed statistics match stored data values.
-- Reports update when new data is added.
+- Given a user requests a report  
+  When the system processes the request  
+  Then total tests, pass/fail counts, and referrals are displayed  
+
+- Given statistics are displayed  
+  When compared to stored data  
+  Then the values match exactly  
+
+- Given new data is added to the system  
+  When reports are generated  
+  Then the reports reflect updated values  
 
 ### FR12 – Data Querying (G5)
-The system shall allow users to query stored data.
 
-**Fit Criteria:**
-- User submits query -> system returns matching dataset.
-- Returned dataset corresponds to query parameters.
-- No unauthorized data is returned.
+- Given a user submits a query  
+  When the system executes the query  
+  Then a matching dataset is returned  
+
+- Given query results are returned  
+  When compared to query parameters  
+  Then the results correspond to those parameters  
+
+- Given a user is not authorized  
+  When they attempt to query data  
+  Then no unauthorized data is returned  
 
 ### FR13 – System Deployment (G6)
-The system shall be accessible via web browsers.
 
-**Fit Criteria:**
-- User accesses system via browser -> application loads successfully.
-- System is reachable via deployed domain.
-- Core features function on supported devices.
+- Given a user accesses the system via a web browser  
+  When the application loads  
+  Then it loads successfully  
+
+- Given the system is deployed  
+  When accessed via its domain  
+  Then it is reachable  
+
+- Given the system is accessed on a supported device  
+  When core features are used  
+  Then they function correctly  
 
 ### FR14 – Cross-Device Compatibility (G6)
-The system shall operate on mobile and tablet devices.
 
-**Fit Criteria:**
-- User accesses system on mobile/tablet -> UI renders correctly.
-- User completes full test workflow on device without failure.
+- Given a user accesses the system on a mobile or tablet device  
+  When the interface loads  
+  Then the UI renders correctly  
+
+- Given a user is using a mobile or tablet device  
+  When completing a full test workflow  
+  Then the workflow completes without failure  
 
 ### FR15 – Calibration and Setup (G7)
-The system shall provide calibration functionality before testing.
 
-**Fit Criteria:**
-- User initiates calibration -> calibration tone is played.
-- User adjusts volume -> system proceeds only after confirmation.
-- Calibration step completes before test begins.
+- Given a user initiates calibration  
+  When calibration begins  
+  Then a calibration tone is played  
+
+- Given a calibration tone is playing  
+  When the user adjusts volume  
+  Then the system proceeds only after confirmation  
+
+- Given calibration is required  
+  When calibration completes  
+  Then the test is allowed to begin 
 
 ### FR16 – Setup Guidance (G7)
-The system shall provide instructions for proper test setup.
 
-**Fit Criteria:**
-- Before testing -> instructions are displayed.
-- User acknowledges instructions -> test proceeds.
-- Instructions include headphone usage and environment guidance.
+- Given a user is about to begin testing  
+  When the system prepares the test  
+  Then setup instructions are displayed  
+
+- Given instructions are displayed  
+  When the user acknowledges them  
+  Then the test proceeds  
+
+- Given setup instructions are shown  
+  When reviewed  
+  Then they include headphone usage and environment guidance 
 
 
 ## Quality Requirements
