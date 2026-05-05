@@ -25,6 +25,7 @@
   - Overall Conclusions
 - Sequence Diagram
 - Conversion of Context Diagram to PlantUML
+- Revision of Requirements in goals.md
 
 ---
 
